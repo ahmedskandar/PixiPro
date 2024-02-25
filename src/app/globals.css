@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.auth {
+  @apply flex-center min-h-screen w-full bg-blue-100;
+}
+
+@layer utilities {
+    .flex-center {
+        @apply flex items-center justify-center
+    }
+}
