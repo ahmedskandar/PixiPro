@@ -8,6 +8,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "PixiPoo",
   description: "AI image enhancement",
+  icons: {
+    icon: '/assets/images/pixipoo-img.png'
+  }
 };
 
 export default function RootLayout({
