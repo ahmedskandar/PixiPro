@@ -1,9 +1,13 @@
-import React, { PropsWithChildren } from 'react'
+import Header from "@/components/header/Header";
+import React, { PropsWithChildren } from "react";
 
-const layout = ({children}: PropsWithChildren) => {
+const layout = ({ children }: PropsWithChildren) => {
   return (
-    <main>{children}</main>
-  )
-}
+    <main>
+      <Header />
+      {children}
+    </main>
+  );
+};
 
-export default layout
+export default layout;
